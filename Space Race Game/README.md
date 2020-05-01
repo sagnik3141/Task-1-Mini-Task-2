@@ -29,7 +29,8 @@ The game gets its input from the ADXL345 Accelerometer Module instead. This is a
 * Disadvantages:
 1. The ADXL345 Accelerometer Module is more expensive than a Joystick Module but it is only slightly so. The ease of controlling the game is worth the extra expense.
 ### Microcontroler/Code
-* Another funtion can be introduced in the code which divides the score into particular levels. Once the player crosses a particular score in a level, he reaches the next level. Each level has a higher gameplay speed. This makes the game more interesting.
+* Another funtion can be introduced in the code which divides the score into particular levels.
+* Once the player crosses a particular score in a level, he reaches the next level. Each following level has a higher gameplay speed. This makes the game more interesting.
 * Also, as the input has been changed from the joystick to the accelerometer, necessary changes have to be made to the setup part of the code and the input function has to be modified accordingly.
 ### Output
 I think the Nokia 5110 Display is good enough for this game and it needs no changes.
