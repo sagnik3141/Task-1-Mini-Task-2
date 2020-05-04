@@ -24,5 +24,5 @@ The original solution uses the Arduino Uno coupled with the HC-05 Bluetooth Modu
 * The ESP32 is much cheaper than the Uno and hence much cheaper than the Uno and the HC-05 module combined.
 * Circuit becomes simpler as there is no need to connect a seperate Bluetooth Module.
 ### Output
-The L298 motor driver does a satisfactory job for this project.
+The original solution for this module is satisfactory and does not need any modifications.
 
