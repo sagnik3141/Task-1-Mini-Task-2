@@ -32,8 +32,9 @@ The game gets its input from the ADXL345 Accelerometer Module instead. This is a
 * Another funtion can be introduced in the code which divides the score into particular levels.
 * Once the player crosses a particular score in a level, he reaches the next level. Each following level has a higher gameplay speed. This makes the game more interesting.
 * Also, as the input has been changed from the joystick to the accelerometer, necessary changes have to be made to the setup part of the code and the input function has to be modified accordingly.
+* The Arduino Uno can be replaced by the ESP32 Board, which is much cheaper.
 ### Output
-I think the Nokia 5110 Display is good enough for this game and it needs no changes.
+I think the Nokia 5110 Display is good enough for this game but if we want a higher resolution display (128x64), the ST7920 / UC1701 displays are great options.
 
 
 
